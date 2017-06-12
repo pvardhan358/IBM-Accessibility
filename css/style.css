@@ -134,7 +134,151 @@ textarea,
 	top:450px;
 	right:0px;
 	display:none;
-	background: url('..//images/scroll-to-top.jpeg') no-repeat 0px 20px;
+	background: url('IBM-Accessibility/images/scroll-to-top.jpeg') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+.row_group{
+	white-space:pre;
+}
+#jquery-script-menu {
+position: fixed;
+height: 90px;
+width: 100%;
+top: 0;
+left: 0;
+border-top: 5px solid #316594;
+background: #fff;
+-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+z-index: 999999;
+padding: 10px 0;
+-webkit-box-sizing:content-box;
+-moz-box-sizing:content-box;
+box-sizing:content-box;
+}
+.jquery-script-center {
+width: 960px;
+margin: 0 auto;
+}
+.jquery-script-center ul {
+width: 212px;
+float:left;
+line-height:45px;
+margin:0;
+padding:0;
+list-style:none;
+}
+.jquery-script-center a {
+	text-decoration:none;
+}
+
+.jquery-script-clear {
+clear:both;
+height:0;
+}
+#addRow{
+    display:none;
+	
+}
+h1{
+	font-family:HelvBoldIBM,Helvetica Neue,Arial,sans-serif;
+	font-weight:normal;
+	color:white;
+	padding-left:20%;
+}
+.footer {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    background-color: #1C6AB2;
+	min-height:50px;
+}
+
+.footer p {
+    color: #fff;
+    font-size:1em;
+    display: inline-block;
+	position:fixed;
+}
+
+#ftr-wrap {
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    margin:0 auto;
+}
+#ftr-wrap > div {
+    display:table-cell;
+    vertical-align:middle;
+    
+}
+#ftr-wrap > div:nth-child(1) {text-align:left;}
+#ftr-wrap > div:nth-child(2) {text-align:center;}
+#ftr-wrap > div:nth-child(3) {text-align:right;}
+
+.ftr-links ul {
+    padding: 0;
+}
+.ftr-links ul li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size:1em;
+}
+.ftr-links ul li a {
+    color: #fff;
+    margin: 0;
+}
+
+#createNewRow{
+	margin-left:22%;
+	margin-bottom:8%;
+	
+}
+#btnExport{
+	margin-bottom:10%;
+	margin-left:5%;
+	
+}
+#btn{
+	margin-bottom:10%;
+}
+.inner{
+	position: absolute;
+    min-height: 70px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #1C6AB2;
+    transition: top 200ms ease-in-out;
+}
+* {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+input,
+textarea,
+[contenteditable] {
+    -webkit-user-select: text;
+    user-select: text;
+}
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:450px;
+	right:0px;
+	display:none;
+	background: url('IBM-Accessibility/images/scroll-to-top.jpeg') no-repeat 0px 20px;
 }
 .scrollToTop:hover{
 	text-decoration:none;
