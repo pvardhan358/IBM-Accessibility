@@ -134,7 +134,7 @@ textarea,
 	top:450px;
 	right:0px;
 	display:none;
-	background: url('..//images/scroll-to-top.jpeg') no-repeat 0px 20px;
+	background: url('IBM-Accessibility/images/scroll-to-top.jpeg') no-repeat 0px 20px;
 }
 .scrollToTop:hover{
 	text-decoration:none;
